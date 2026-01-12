@@ -1,0 +1,6 @@
+[submodule "CynthIA-backend"]
+	path = CynthIA-backend
+	url = https://github.com/JAPS-Engineering/CynthIA-backend.git
+[submodule "CynthIA-frontend"]
+	path = CynthIA-frontend
+	url = https://github.com/JAPS-Engineering/CynthIA-frontend.git

@@ -1,0 +1,15 @@
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Backups
+backups/
+*.sql
+*.sql.gz
+
+# Logs
+*.log
+
+# Docker volumes (si se crean localmente)
+postgres_data/
