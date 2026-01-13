@@ -10,6 +10,7 @@ services:
       POSTGRES_DB: ${DB_NAME:-periti_ia}
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./CynthIA-backend/scripts/init-user-db.sql:/docker-entrypoint-initdb.d/init-user-db.sql:ro
     ports:
       - "5432:5432"
     healthcheck:
